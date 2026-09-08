@@ -278,6 +278,17 @@ h1 {
   transform: translateY(-2px);
 }
 
+.primary-button-disabled {
+  color: var(--muted);
+  background: rgba(145, 169, 180, 0.1);
+  cursor: default;
+}
+
+.primary-button-disabled:hover {
+  background: rgba(145, 169, 180, 0.1);
+  transform: none;
+}
+
 a:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 4px;
